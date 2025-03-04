@@ -18,7 +18,7 @@
 <p>Danh mục: <?php echo $sql_pro['tendanhmuc']?></p>
 <p>Số Lượng: <?php echo $sql_pro['soluong']?></p>
 <p>Giá: <?php echo number_format ($sql_pro['giasanpham'],0,',','.').' VNĐ'?></p>
-<p><input class="themgiohang" type="submit" value ="Thêm giỏ hàng"></p>
+<p><input class="themgiohang" name="themgiohang" type="submit" value ="Thêm giỏ hàng"></p>
 </div>
 </form>
 </div>
