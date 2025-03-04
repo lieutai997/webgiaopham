@@ -22,7 +22,7 @@
         include("pages/footer.php");
         ?>
 
-xcbxcvb nmn
+
 </body>
 
 </html>
