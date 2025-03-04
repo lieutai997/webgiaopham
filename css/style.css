@@ -1,0 +1,186 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    border: 1px solid #000;
+    height:auto;
+    width: 90%;
+    margin: 0 auto;
+
+}
+.wrapper_chitietsanpham{
+    height:auto;
+    width: 90%;
+    margin: 0 auto;
+
+
+}
+.hinhanh_sanpham{
+    float: left;
+    width: 50%;
+}
+.chitietsanpham{
+    float: left;
+    width: 40%;
+}
+input.themgiohang{
+border: none;
+background-color: #cf2e2e;
+color: #ffffff;
+padding: 12px;
+font-size: 18px;
+cursor: pointer;
+}
+h2{
+color: #000;
+text-align:center;
+}
+
+.header{
+    background-image: url("https://www.shutterstock.com/image-vector/banner-big-buddha-sitting-on-260nw-2131717219.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border: 1px solid #ff6600;
+    height:130px;
+    width: 100%;
+     
+}
+.menu{
+    border: 1px solid #ea00ff;
+    height: 50px;
+    width: 100%;
+    background: #cf2e2e;
+    
+  
+}
+ul.listmenu {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    margin-left: 120px;
+   
+  
+}
+ul.listmenu li {
+    float: left;
+    border: 1px;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    
+}
+ul.listmenu li a{
+    text-decoration: none;
+    text-align: center;
+    color: blue;
+    font-size: 18px;
+}
+ul.listmenu li:hover{
+    margin-top: auto;
+    background-color:  #ff6600; 
+    opacity: 0.6;
+    transition: 0.20s;
+}
+
+#main{
+    border: 1px solid #ff6600;
+    height:auto;
+    width: 100%;
+
+
+}
+.sidebar{
+    border: 1px solid #000000;
+    height:390px;
+    width: 20%;
+    margin-top: 5px;
+    margin-left: 5px;
+    float: left;
+}
+ul.list_sidebar {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+   
+    list-style: none;
+    line-height: 27px;
+
+ 
+}
+ul.list_sidebar li {
+    
+    border: 1px;
+    margin: 60px; 
+    
+
+}
+ul.list_sidebar li a{
+    text-decoration: none;
+   
+    color: blue;
+  
+}
+ul.list_sidebar li:hover{
+   
+    background-color:  #ff6600;
+    
+}
+.mainchinh{
+    border: 1px solid #ec0000;
+    height:auto;
+    width: 78%;
+    margin-top: 5px;
+    margin-left: 10px;
+
+    float: left;
+}
+ul.product_list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+    height: auto;
+}
+ul.product_list li {
+    width: 19%;
+    border: 1px solid #352d2d;
+    margin: 5px;
+    float: left;
+    background-color: #cf2e2e;
+    text-align: center;
+    height: 390px;
+}
+ul.product_list li img {
+    width: 100%;
+    height: 200px;
+}
+ul.product_list li a{
+    
+    text-decoration: none;
+}
+p.tile_product{
+    color: #ffffff;
+    font-size: 15px;
+}
+p.price_product{
+    color: #ffffff;
+}
+p.price_product:hover{
+    color: #fffb00;
+}
+
+.footer{
+    border: 1px solid #352d2d;
+    height: 120px;
+    width: 100%;
+    background: #ff8533ab;
+}
+p.footer_text{
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+}
+.clear{
+    clear: both;
+}
