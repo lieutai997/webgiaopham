@@ -40,6 +40,6 @@ if(isset($_POST['themgiohang'])){
             $_SESSION['cart']=$new_product;
         }
     }
-    // header('Location:../../index.php?quanly=giohang');
+    header('Location:../../index.php?quanly=giohang');
 }
 ?>
