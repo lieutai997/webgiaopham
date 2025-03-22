@@ -32,11 +32,38 @@
 #customers td a:hover, a:active {
   background-color: red;
 } */
+ .dathang td {
+  clear: both;
+    margin:0;
+    padding:0;
+    border:none;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+ }
+.dathang a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 10px 19px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.dathang a:hover, a:active{
+  background-color: red;
+}
 </style>
 
 <?php
     session_start();
 ?>
+<h4 style="text-align:center">Giỏ hàng:
+  <?php
+  if(isset($_SESSION['dangky'])){
+    echo $_SESSION['dangky'];
+  }
+  ?>
+
+</h4>
 <?php
     if(isset($_SESSION['cart'])){
       
@@ -90,12 +117,33 @@
         ?>
         <tr>
     <td colspan="8">Tổng tiền: <?php echo number_format($tongtien,0,',','.').' VNĐ'; ?></td>
-   
-  </tr>
+
+<tr class="dathang">
+<td colspan="8">
+  <?php
+      if(isset($_SESSION['dangky'])){
+        ?>
+        <p><a href="">Đặt Hàng</a></p>
+        <?php
+      }else{
+            ?>
+      <p class="dathang"><a href="index.php?quanly=dangky">Đăng ký đặt hàng</a></p>
+    
+        <?php
+      }
+      ?>
+
         <?php
     }else{
 
     ?>
+    </td>     
+</tr>
+
+ 
+   
+  </tr>
+
   <tr>
     <td style ="text-align: center" colspan="8">Giỏ hàng trống</td>
    
