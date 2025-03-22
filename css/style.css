@@ -32,6 +32,9 @@ padding: 12px;
 font-size: 18px;
 cursor: pointer;
 }
+input:hover.themgiohang{
+    color: hotpink;
+}
 h2{
 color: #000;
 text-align:center;
@@ -127,7 +130,7 @@ ul.list_sidebar li:hover{
     
 }
 .mainchinh{
-    border: 1px solid #ec0000;
+    border: 1px;
     height:auto;
     width: 78%;
     margin-top: 5px;
