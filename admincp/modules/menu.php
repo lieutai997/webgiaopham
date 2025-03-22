@@ -4,4 +4,5 @@
     <li><a href="index.php?action=quanlybaiviet&query=them">Quản lý bài viết</a></li>
     <li><a href="index.php?action=quanlytintuc&query=them">Quản lý tin tức</a></li>
     <li><a href="index.php?action=quanlyquangcao&query=them">Quản lý quảng cáo</a></li>
+  
 </ul>
