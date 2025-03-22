@@ -20,7 +20,7 @@
     <li><a href="index.php?quanly=tintuc">Tin Tức</a></li>
     <li><a href="index.php?quanly=lienhe">Liên Hệ</a></li>
     <li><a href="index.php?quanly=giohang">Giỏ Hàng</a></li>
-    <li><a href="index.php">Đăng Ký</a></li>
+    <li><a href="index.php?quanly=dangky">Đăng Ký</a></li>
     <li><a href="index.php">Đăng Nhập</a></li>
 
 </ul>
